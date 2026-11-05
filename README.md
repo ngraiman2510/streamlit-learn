@@ -55,5 +55,8 @@ The app accepts marks from **1 to 100** and assigns grades as follows:
 Although the number input allows 0, the submission validation rejects marks
 less than or equal to 0.
 
+The form clears its fields after a valid submission. If validation fails, the
+entered values remain so they can be corrected.
+
 Student entries are kept in Streamlit session state while the app session is
 active; they are not saved to a file or database.
