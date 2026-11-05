@@ -1,0 +1,50 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Streamlit local credentials, secrets, and cache
+.streamlit/credentials.toml
+.streamlit/secrets.toml
+.streamlit/cache/
+
+# Test, type-checker, and linter output
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Miscellaneous
+*.log
+*.claude
+*.toml
+*.agents
